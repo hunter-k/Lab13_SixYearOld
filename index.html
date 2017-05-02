@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="simModule" ng-controller="myController">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <title>6 Year Old Simulator</title>
+</head>
+<body>
+    <nav>
+      <button ng-click="addPlainWords()">Add Word</button>
+      <button ng-click="addWords()">Add Word with decoration</button>
+      <button ng-click="addPlainPhrase()">Add Phrase</button>
+      <button ng-click="addPhrase()">Add Phrase with decoration</button>
+    </nav>
+
+    <div>
+      <p>
+        <span ng-class="word.cls" ng-repeat="word in viewWords">{{ word.word }}  </span>
+      </p>
+    </div>
+
+
+
+    <script src="angular.min.js"></script>
+    <script src="angular-route.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
