@@ -1,3 +1,34 @@
+@font-face { font-family: Handwriting_Font_3; src: url('Handwriting_Font_3.ttf'); }
+@font-face { font-family: Handwriting_Font_3; font-weight: bold; src: url('Handwriting_Font_3.ttf');}
+
+html {
+    background-color: slategray;
+}
+
+nav {
+    text-align: center;
+}
+
+button {
+    color: azure;
+    height: 3em;
+    margin: 1.5em 0.5em 0.2em;
+    border-radius: 0.5em;
+}
+
+button:nth-child(2) {
+    background-color: #45a245;
+}
+
+div {
+    font-family: Handwriting_Font_3;
+    font-size: 14pt;
+}
+
+class1 {
+    color: red;
+}
+
 .class2 {
   color: blue;
 }
@@ -16,4 +47,32 @@
 
 .class5 {
   color: orange;
+}
+
+#nav-image {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/564x/8d/83/17/8d8317bd33cb6acc5459a12716e414a5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 9em;
+}
+
+#word-area {
+    width: 40em;
+    margin: 0 auto;
+    overflow-y: scroll;
+    padding: 0.5em 1em 0em;
+}
+
+p {
+    overflow: scroll;
+}
+
+body {
+    box-sizing: content-box;
+    width: 50em;
+    margin: 0 auto;
+    height: 50em;
+    background-color: beige;
+    border: 0.2em dotted rgba(70, 59, 52, 0.55);
+    box-shadow: 0 0 3em #3e333e;
 }
