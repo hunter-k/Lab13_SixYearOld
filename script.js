@@ -41,7 +41,7 @@
     $scope.viewWords.push(newObj);
   }
 
-  $interval($scope.randomFunction, 1000 );
+  $interval($scope.addPlainWords, 1000 );
 
 })
 })();
