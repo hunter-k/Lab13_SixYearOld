@@ -3,6 +3,7 @@
 
 html {
     background-image: url("https://static1.squarespace.com/static/50c81b76e4b04856f8b9256e/t/53279a3ee4b0bc54fcdba59d/1395104323336/");
+    background-size: cover;
     background-color: slategray;
 }
 
@@ -109,7 +110,7 @@ body {
     margin: -8em 0 0 -35em;
     z-index: -2;
     box-shadow: 0 0.3em 3em rgba(0, 0, 0, 0.43);
-    animation: slideLeft 5s;
+    animation: slideLeft 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
