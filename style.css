@@ -14,7 +14,7 @@ nav {
 button {
     color: #3c4141;
     height: 2.5em;
-    margin: 1.5em 0.5em 0.2em;
+    margin: 0.5em 0.2em;
     border-radius: 0.5em;
     font-size: 12pt;
     font-weight: bold;
@@ -81,16 +81,16 @@ div {
 }
 
 #word-area {
-    width: 40em;
+    width: 35em;
     margin: 0 auto;
-    padding: 0.5em 1em 0em;
+    padding: 0.5em 2em 0em;
 }
 
 p {
 }
 
 body {
-    width: 50em;
+    width: 45em;
     margin: 0 auto;
     height: 50em;
     background-color: beige;
@@ -100,14 +100,14 @@ body {
 
 #toddler-title {
     background-image: url(image/toddler.png);
-    height: 7em;
+    height: 5em;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 20em;
+    background-size: 14em;
     background-color: #ffffff;
     position: relative;
-    width: 40em;
-    margin: -8em 0 0 -35em;
+    width: 30em;
+    margin: -3em 0 0 -35em;
     z-index: -2;
     box-shadow: 0 0.3em 3em rgba(0, 0, 0, 0.43);
     animation: slideLeft 3s;
@@ -116,7 +116,7 @@ body {
 }
 
 @keyframes slideLeft {
-    0% {margin-left: -80em;}
-    100% {margin-left: -35em;}
+    0% {margin-left: -60em;}
+    100% {margin-left: -23em;}
 
 
