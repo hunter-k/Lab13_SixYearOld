@@ -5,7 +5,7 @@
   app.controller('myController', function($scope, $interval) {
 
 
-  $scope.words = ["want", "mine", "candy", "fun", "stop", "scared", "happy", "sticky", "bugs", "mean", "monster", "no", "HEY!"];
+  $scope.words = ["want", "MINE", "candy", "fun", "STOP", "scared", "happy", "sticky", "bugs", "mean", "monster", "NO", "HEY!"];
 
   $scope.phrase = ["I'm tired", "It's hot", "Leave me alone!", "Go away!", "What are you doing?", "I'm hungry!", "I'm starving!!", "Can I use your phone?", "Let's play a game.", "Don't do that!", "We're not friends anymore.", "NO FAIR!"];
 
@@ -41,7 +41,7 @@
     $scope.viewWords.push(newObj);
   }
 
-  $interval($scope.addPlainWords, 1000 );
+  $interval($scope.addPlainWords, 500 );
 
 })
 })();
